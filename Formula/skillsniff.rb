@@ -1,25 +1,25 @@
 class Skillsniff < Formula
   desc "Command-line interface for skillsniff"
   homepage "https://github.com/Haikeysgit/skillsniff"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.1/skillsniff-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "8d4df75276fefb5598825ce64504230d8d040ac581d34400f50c0b2f5929b9af"
+      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.2/skillsniff-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "1439f8f50635362378f0251765685bd4de6e96bfc1290a107cbf5d5cef2a4385"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.1/skillsniff-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "238096002fec697e1884efb32bdc6618920f10ba5a06b069bd4491d58f61fd4d"
+      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.2/skillsniff-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "4fb9ec7ade067cbdcca58cffd23692d0e0a57b8cf35da4241c65bde57a58eea4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.1/skillsniff-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "71bdea00067261883caa71e1ac6f3a03ba76f7d1a364b145b1dea7551aae74ec"
+      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.2/skillsniff-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "033679e06fc610cf8b0bc6aa353d4a4a4bf4049bba72626ff433f673f7acb81f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.1/skillsniff-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "0b0f6e959f772032f1d170b0a4d38b098375458548ccc836ec1bc53129c07027"
+      url "https://github.com/Haikeysgit/skillsniff/releases/download/v0.1.2/skillsniff-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "6145e17b2f6e0b11404b39ad69071c4c6398fe671423efb48c3342fa4be68d3a"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
